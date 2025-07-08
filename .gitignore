@@ -1,0 +1,63 @@
+# ===============================
+# Node.js backend
+# ===============================
+node_modules/
+.env
+.env.local
+dist/
+build/
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# ===============================
+# Vite + React frontend
+# ===============================
+client/node_modules/
+client/.env
+client/.env.local
+client/dist/
+client/.vite/
+client/.next/
+client/.cache/
+client/coverage/
+
+# ===============================
+# Logs & coverage
+# ===============================
+*.log
+coverage/
+*.lcov
+
+# ===============================
+# Optional: production builds
+# ===============================
+server/dist/
+client/build/
+
+# ===============================
+# Mac & Linux system files
+# ===============================
+*.swp
+*.swo
+
+# ===============================
+# Windows
+# ===============================
+*.exe
+*.dll
+*.lnk
+
+# ===============================
+# JetBrains IDEs (WebStorm, etc.)
+# ===============================
+.idea/
