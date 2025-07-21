@@ -10,7 +10,7 @@ const app = express();
 
 // Optional: Configure CORS for specific origin
 app.use(cors({
-  origin: 'http://localhost:5173', // frontend URL (like Vite/React)
+  origin: 'https://ai-code-reviewer-client.onrender.com', // frontend URL (like Vite/React)
   methods: ['GET', 'POST'],
   credentials: true
 }));
