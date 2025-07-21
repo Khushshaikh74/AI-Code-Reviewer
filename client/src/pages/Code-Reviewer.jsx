@@ -14,7 +14,7 @@ const CodeReviewer = () => {
     setError(null);
 
     try {
-      const res = await fetch('http://localhost:5000/api/ai/review', {
+      const res = await fetch('https://ai-code-reviewer-ydzn.onrender.com/api/ai/review', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
